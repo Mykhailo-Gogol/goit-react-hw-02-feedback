@@ -7,7 +7,6 @@ class FeedbackOptions extends Component {
 
     return (
       <div>
-        <h1>Please leave feedback</h1>
         <button onClick={onGood} className={s.button} type="button">
           good
         </button>
