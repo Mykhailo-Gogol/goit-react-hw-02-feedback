@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import * as s from "./FeedbackOptions.module.css";
 
 class FeedbackOptions extends Component {
   render() {
@@ -7,13 +8,13 @@ class FeedbackOptions extends Component {
     return (
       <div>
         <h1>Please leave feedback</h1>
-        <button type="button" onClick={onGood}>
+        <button onClick={onGood} className={s.button} type="button">
           good
         </button>
-        <button type="button" onClick={onNeutral}>
+        <button onClick={onNeutral} className={s.button} type="button">
           neutral
         </button>
-        <button type="button" onClick={onBad}>
+        <button onClick={onBad} className={s.button} type="button">
           bad
         </button>
       </div>
