@@ -33,7 +33,7 @@ class App extends PureComponent {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    console.log("GOOD PREV", prevState.good, "GOOD CURRENT", this.state.good);
+    // console.log("GOOD PREV", prevState.good, "GOOD CURRENT", this.state.good);
   }
 
   getLSItem = (name) => Number(localStorage.getItem(name));
