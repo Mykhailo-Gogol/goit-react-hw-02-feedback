@@ -63,7 +63,7 @@ class App extends PureComponent {
     const total = good + bad + neutral;
 
     return (
-      <div className="App">
+      <div className="container">
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={{ good, bad, neutral }}
