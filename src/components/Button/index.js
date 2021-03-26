@@ -1,5 +1,5 @@
 import React from "react";
-import * as s from "../FeedbackOptions.module.css";
+import s from "./FeedbackOptions.module.css";
 
 const Button = ({ func }) => {
   return (

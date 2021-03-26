@@ -15,10 +15,7 @@ Section.defaultProps = {
 };
 
 Section.propTypes = {
-  title: PropTypes.string,
-  children: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-  }).isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default Section;
