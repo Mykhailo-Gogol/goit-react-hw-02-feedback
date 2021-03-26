@@ -1,10 +1,10 @@
 import React from "react";
 import s from "./FeedbackOptions.module.css";
 
-const Button = ({ func }) => {
+const Button = ({ func, buttonTitle }) => {
   return (
     <button onClick={() => func()} className={s.button} type="button">
-      good
+      {buttonTitle}
     </button>
   );
 };
